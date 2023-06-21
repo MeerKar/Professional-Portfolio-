@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body { 
+    background-color:#d9dcd6; 
+
+}
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+.header h1 .Karnavar {
+    color: #d9dcd6;
+}
+
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px; 
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.header div ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    /* color: #000;
+    font-weight: bold; */
+}
+
+p {
+    font-size: 16px;
+}
+
+
+.hero{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/meera.jpeg"); 
+    background-size: cover;
+    background-position: center;
+}
+.float-left { 
+    float: left;
+    margin-right: 25px;
+}
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* .content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+} */
+
+/* nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: crimson;
+}
+ */
