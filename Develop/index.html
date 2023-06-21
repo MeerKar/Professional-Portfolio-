@@ -1,65 +1,128 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name ="vieport" content="width=device-width,initial-scale=1.0">
-   <link rel="stylesheet" href="./assets/style.css" />
-   <title>Personal Portfolio</title>
-</head>
-<body>
-    <div class="header">
-        <h1>Meera<span class ="Karnavar">Karnavar</span></h1>
-    
-        <div>
-            <ul>
-                <li><a herf="#Home">Home</a></li>
-                <li><a herf="#About">About</a></li>
-                <li><a herf="#Portfolio">Portfolio</a></li>
-                <li><a herf="#Contact">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="hero"></div>
-    <section class="content">
-        <article id="Home"class="Home">
-        <img src="./assets/images/back.webp" class="float-left"/>
-        <h2>Home</h2>
-        <p>
-         Welcome to my Personal page! 
-        </p>
-      </article>
-    
-      <article id="About"class="About" >
-       <img src="./assets/images/meera.jpeg" class="float-right"/>
-        <h2>About</h2>
-        <p>
-            Me born and bought up in India , moved and settled in BayArea california.
-            Completed my graduation in ComputerScience ,Certified Data analytics, who love coding and ready to 
-            swing back in coding and job after a long break from work.Love hiking, paiting, and enjoys music.
-        </p>
-      </article>
-      <article id="Portfolio" class="Portfolio">
-        <!--Added images alt="" description  -->
-        <img src="./assets/images/Contact.png"class="float-left" />
-        <h2>Portfolio</h2>
-        <p>
-          Have done various projects using various technologies and you can follow me in github .
-        </p>
-      </article>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Meera's Portfolio</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
 
-    </article>
-    <article id="Contact" class="Contact">
-      <!--Added images alt="" description  -->
-      <img src="./assets/images/logo.png"class="float-left" />
-      <h2>Contact</h2>
-      <p>
-        You can reach out to me as follows. .
-      </p>
-    </article>
-    </section>
-</body>
+    <body>
+        <!-- header and nav section start -->
+        <header>
+            <div><h1>Meera Karnavar</h1></div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#my-work">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="./assets/documents/Meera.pdf" target="_blank">My Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- hero image section start -->
+        <section class="hero">
+            <div>
+                <img src="./assets/images/meera.jpeg" alt="An image of Meera Karnavar">
+            </div>
+            <div class="quote">
+                <blockquote>
+                    <p id="quote-text">
+                        AND STILL <br> I RISE.
+                    </p>
+                    <p>
+                        --Maya Angelou
+                        
+                    </p>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- about me section start -->
+        <section id="about-me" class="about-me">
+            <div class="title">
+                <h2>About Me</h2>
+            </div>
+            
+            <div>
+                <p>
+                    I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience. I like to read, I like to write; I like to think, I like to dream; I like to talk, I like to listen. I like to see the sunrise in the morning, I like to see the moonlight at night; I like to feel the music flowing on my face, I like to smell the wind coming from the ocean. I like to look at the clouds in the sky with a blank mind, I like to do thought experiment when I cannot sleep in the middle of the night. I like flowers in spring, rain in summer, leaves in autumn, and snow in winter. 
+                    <br><br>
+                    I moved from India and settled in BayArea california,completed my graduation in ComputerScience, a certified Data analytics, who love coding and ready to swing back in  job after a long break.
+                </p>
+            </div>
+        </section>
+
+        <!-- my work section start -->
+        <section id="my-work" class="my-work">
+            <div class="title"><h2>My Work</h2></div>
+            <div class = "projects-grid-wrapper">
+                <div class="projects-grid">
+
+                    <a href="https://github.com/MeerKar/Deep-Learning/" target="_blank" class="project deep-learning">
+                        <div class="project-label">
+                            <h3>Deep learning</h3>
+                            <p>Machine Learning</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/MeerKar/stroke_classifier" target="_blank" class="project stroke_classifer">
+                        <div class="project-label">
+                            <h3>Stroke Classifier</h3>
+                            <p>ML/HTML/CSS/JavaScript</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/MeerKar/Project-3-Air-Quality-CA" target="_blank" class="project Air Quality">
+                        <div class="project-label">
+                            <h3>Air Quality</h3>
+                            <p>JavaScript/Flask/HTML</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/MeerKar/Belly-Button-JS" target="_blank" class="project Belly Button">
+                        <div class="project-label">
+                            <h3>Belly Button</h3>
+                            <p>JavaScript/HTML/CSS</p>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank"  class="project project1">
+                        <div class="project-label">
+                            <h3>Project 1</h3>
+                            <p>Placeholder</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact info section -->
+        <footer id="contact-me">
+            <div class="title"><h2>Contact Me</h2></div>
+            <div class="content-wrapper">
+                <div id="contact-list">
+                    <ul>
+                        <li>
+                            <a href="mailto:meku.jithu@gmail.com">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/MeerKar" target="_blank">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/meera-g-karnavar-29ab3010/" target="_blank">LinkedIn</a>
+                        </li>
+                        <li>
+                            <p>(000) 000-000</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
-
-      
-
