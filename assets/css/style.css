@@ -26,10 +26,12 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px;
+  
 }
 
-header div {
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+header {
+    border-style: solid;
+   
 }
 
 header h1 {
@@ -38,7 +40,11 @@ header h1 {
     font-weight: bold;
     background-color: var(--secondary);
     padding: 10px;
+    border-radius: 30px;
     border: 5px solid var(--pop);
+    /* transform: rotate(2deg); */
+    box-shadow: rgba(0, 0, 0, 0.988) 12px 8px 23px 10px;
+   
 }
 
 header a {
@@ -81,7 +87,9 @@ header nav ul li a:hover {
     background-position: center;
     display: flex;
     align-items: center;
+     border: 5px;
     justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.988) 12px 8px 28px 10px;
 }
 
 .hero img {
@@ -244,7 +252,7 @@ footer ul {
 }
 
 footer ul li {
-    /*padding-bottom: 15px;*/
+    
     font-weight: bold;
 
 }
