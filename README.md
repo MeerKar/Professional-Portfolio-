@@ -7,3 +7,7 @@ Included functioning navigation links at the top of the page to take the user to
 I included a recent photo of myself. The projects presented in the section include a couple of sample projects I have done on for my previous studies.
 The applications will take the user to the deployed application on my GitHub when clicked on. The page was styled for multiple screen sizes, including tablets and mobile phones. 
 I also included some on hover effects for the various links and the projects on the page.
+
+<img width="1430" alt="image" src="https://github.com/MeerKar/Professional-Portfolio-/assets/116701851/4c457f78-7e72-44c8-aa20-99e8dfcc453e">
+<img width="1438" alt="image" src="https://github.com/MeerKar/Professional-Portfolio-/assets/116701851/13851984-7552-4ae6-868a-367c9e2c36d3">
+
