@@ -222,22 +222,22 @@ header nav ul li a:hover {
 /* my work section styling end */
 
 /* contact me section styling start */
-.footer {
+ .footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 10px 0;
+    margin-bottom: 40px;
 }
 
 .content-wrapper {
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-#contact-list {
+  #contact-list 
+ {
     width: 60%;
 }
 
@@ -255,21 +255,36 @@ footer ul li {
     
     font-weight: bold;
 
-}
+} 
 
-footer ul li a {
+ footer ul li a {
     text-decoration: none;
     color: var(--primary);
-    padding: 8px;
+    padding: 5px;
     font-weight: bold;
-}
-
+} 
+/* hover effects to the anchor links */
 footer ul li a:hover {
     background: var(--pop);
     color: var(--secondary);
     border-radius: 15px;
 }
-/* contact me section styling end */
+
+footer .end {
+    color: var(--primary);
+    text-align: center-right;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+/* contact me section styling end */ 
+/* Contact Me Section Styling */
+
+
+/* MEDIA QUERY FOR TABLET SCREENS AND SMALLER */
 
 /* MEDIA QUERY FOR TABLET SCREENS AND SMALLER */
 @media screen and (max-width: 768px) {
